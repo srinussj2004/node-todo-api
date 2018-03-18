@@ -25,3 +25,5 @@ todo.save().then((doc) =>{
 app.listen(3000, () =>{
   console.log('node to api application server started @ 3000 port number');
 });
+
+module.exports ={app};
