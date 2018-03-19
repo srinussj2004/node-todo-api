@@ -27,7 +27,7 @@ Todo.find().then((todos) =>{
   res.send({todos});
 },(e) => {
   resp.status(400).send(e);
-  })
+  });
 });
 
 app.listen(3000, () =>{
